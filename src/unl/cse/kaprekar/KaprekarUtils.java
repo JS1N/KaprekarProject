@@ -24,7 +24,7 @@ public class KaprekarUtils {
 	 */
 	public static boolean isKaprekar(int n) {
 		
-		if(n < 1); {
+		if(n < 1) {
 			return false;
 		} 
 		
@@ -38,7 +38,7 @@ public class KaprekarUtils {
 			first = square / modulus;
 			second = square % modulus;
 			if(first > 0 &&
-			   first + second = n) {
+			   first + second == n) {
 				return true;
 			}
 		}
